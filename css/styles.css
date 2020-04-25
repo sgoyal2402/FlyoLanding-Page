@@ -172,7 +172,7 @@ td.body{
     color: hsl(0, 0%, 75%);
 }
 
-@media (max-width:375px){
+@media (max-width:500px){
 
   /* Navbar */
     .nav-item{
