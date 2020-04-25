@@ -1,0 +1,286 @@
+body{
+    font-family: "Open Sans";
+}
+
+h1,h2{
+    font-family: 'Raleway';
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p, span{
+    text-align: justify;
+    font-size: 0.9rem;
+ 
+}
+
+p{
+    padding-right: 14%;
+}
+/* home Section */
+.img1{
+    width: 100%;
+}
+#home{
+    background-color: #fff;
+    padding: 2% 10% 7%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+  }
+
+.nav-item{
+    font-family: 'Raleway';
+    font-weight: 400;
+    padding: 0 18px;
+}
+
+/* content */
+
+.content{
+    /* margin-top: 5%; */
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-main{
+  width: 30%;
+  font-size: small;
+  box-shadow: 0 1px 1px 0 hsl(0, 0%, 75%);
+  margin-top: 0;
+  background-color: hsl(224, 93%, 58%);
+  box-shadow: 0 0 2px 1px hsl(0, 0%, 75%) ;
+}
+
+.form1{
+    width: 50%;
+    padding: 1%;
+    margin-right: 15px;
+}
+
+::placeholder{
+    color: hsl(0, 0%, 75%);
+    font-size: small;
+}
+
+
+/* Features */
+.curve{
+    height: 100px;
+    background-image: url("bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#features{
+    padding: 7% 10%;
+    background-color:hsl(240, 75%, 98.5%);
+}
+
+.feature-content{
+    padding-right:15% ;
+}
+.img2{
+    width: 100%;
+}
+
+hr{
+    max-width: 30%;
+    margin-left: 0;
+    margin-top: 10px;
+    border-color:hsl(170, 45%, 43%);
+
+}
+
+span{
+    color:hsl(170, 45%, 43%);
+}
+.quote{
+    width: 300px;
+    background-color: #fff;
+    border: 1px ridge hsl(0, 0%, 75%);
+    padding: 5%;
+    font-size: small;
+    box-shadow: 0 0 1px 1px hsl(0, 0%, 75%) ;
+}
+.avatar{
+    border-radius: 100%;
+    width: 3rem;
+}
+table{
+    margin-top: 15px;
+    font-size: smaller;
+}
+.head{
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding-left: 15px;
+}
+td.body{
+    padding-left: 15px;
+}
+
+/* Sign-in */
+#sign-in{
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 75%);
+    padding: 7% 10%;
+}
+#sign-in h3{
+    color: #fff;
+}
+
+.email{
+    padding: 1%;
+    width:90%;
+    margin-bottom: 10px;
+}
+
+.btn-sec{
+    background-color: hsl(224, 93%, 58%);
+    font-size: smaller;
+    width: 40%;
+    box-shadow: 0 0 1px 1px hsl(238, 22%, 44%) ;
+}
+
+/* Footer */
+
+.footer{
+    padding: 7% 10%;
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(0, 0%, 75%);
+}
+
+.logo{
+    margin-bottom: 2%;
+}
+
+.icon{
+    margin: 5px;
+    border: 1px solid hsl(0, 0%, 75%);
+    padding: 8px;
+    border-radius: 100%;
+}
+.icon1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table{
+    color: hsl(0, 0%, 75%);
+}
+
+@media (max-width:375px){
+
+  /* Navbar */
+    .nav-item{
+        font-size: x-small;
+    }
+
+    .navbar{
+        margin-top: 10px;
+    }
+
+    .logo1{
+        width: 30%;
+        height: 10%;
+    }
+
+    /* MainSection */
+
+    h2, .main-content, p{
+        text-align: center;
+        margin-top: 30px;
+        padding-right: 0;
+
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .btn-main, .form1{
+        margin-top: 10px;
+        width: 90%;
+    }
+    .form1{
+        margin-left: 10px;
+    }
+
+    /* features */
+
+    #features{
+        padding-bottom: 70px;
+    }
+
+    .curve{
+        height: 40px;
+        background-image: url("bg-curve-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    .feature-content{
+        padding-right: 0;
+        font-size: small;
+    }
+
+    .row h2{
+        font-size: 1.15rem;
+        margin-top: 30px;
+    }
+
+    .row p{
+        text-align: left;
+        margin-top: 0px;
+    }
+    .span{
+        text-align: center;
+    }
+    hr{
+        margin-left: auto;
+        max-width: 60%;
+    }
+
+    .quote{
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    /* Sign-in */
+
+    #sign-in{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sign{
+
+        text-align: center;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .btn-sec{
+        width: 90%;
+    }
+
+    /* Footer */
+
+    .table{
+        margin-top: 30px;
+        color: hsl(0, 0%, 75%);
+    }
+
+    .ic{
+        text-align: center;
+    }
+
+    .logo{
+        padding-top: 30px;
+    }
+
+}
